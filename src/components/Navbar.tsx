@@ -8,15 +8,15 @@ function Navbar({ className }: { className?: string }) {
     return (
         <div className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}>
             <Menu setActive={setActive}>
-                <Link href={"#"}>
+                <Link href={"/"}>
                 <MenuItem setActive={setActive} active={active} item="Home">
                 </MenuItem> 
                 </Link>
-                <Link href={"#"}>
-                <MenuItem setActive={setActive} active={active} item="Products">
+                <Link href={"/apps"}>
+                <MenuItem setActive={setActive} active={active} item="Apps">
                 </MenuItem> 
                 </Link>
-                <Link href={"#"}>
+                <Link href={"/about"}>
                 <MenuItem setActive={setActive} active={active} item="About">
                 </MenuItem> 
                 </Link>
