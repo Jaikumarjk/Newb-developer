@@ -10,7 +10,7 @@ function page() {
       </h1>
     
       <p className="text-center text-2xl mt-20 pr-4 pl-4 text-white">
-        Welcome to SFDCpathshala, your go-to destination for innovative and
+        {`Welcome to SFDCpathshala, your go-to destination for innovative and
         user-friendly applications developed by Nweb Developer. At
         SFDCpathshala, we believe in the power of technology to transform and
         enrich lives. Our mission is to create cutting-edge solutions that
@@ -23,7 +23,7 @@ function page() {
         this journey of innovation and discovery as we continue to push the
         boundaries of what's possible in the world of app development. Thank you
         for choosing SFDCpathshala by Nweb Developer. Together, let's make
-        technology work for you.
+        technology work for you.`}
       </p>
     </div>
   );
